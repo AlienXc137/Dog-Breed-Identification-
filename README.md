@@ -13,8 +13,6 @@ We're going to go through the following TensorFlow/Deep Learning workflow:
 5. Improve the model through experimentation (start with 1000 images, make sure it works, increase the number of images).
 6. Save, sharing and reloading your model.
 
-For preprocessing our data, we're going to use TensorFlow. The whole premise here is to get our data into Tensors (arrays of numbers which can be run on GPUs) and then allow a machine learning model to find patterns between them.
-
 For our machine learning model, we're going to be using a pretrained deep learning model from TensorFlow Hub.
 
 The process of using a pretrained model and adapting it to your own problem is called **transfer learning**.
