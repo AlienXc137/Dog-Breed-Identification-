@@ -13,6 +13,12 @@ We're going to go through the following TensorFlow/Deep Learning workflow:
 5. Improve the model through experimentation (start with 1000 images, make sure it works, increase the number of images).
 6. Save, sharing and reloading your model.
 
-For our machine learning model, we're going to be using a pretrained deep learning model from TensorFlow Hub.
+For our machine learning model, we're using MobileNetV2, a lightweight and efficient convolutional neural network architecture, as the base model. It's a pretrained deep learning model available via TensorFlow Hub.
 
-The process of using a pretrained model and adapting it to your own problem is called **transfer learning**.
+##  Results
+1. Achieved 99.85% training accuracy by epoch 15 with very low training loss.
+2. On the validation set, the model achieved an accuracy of 84.61%.
+3. Submitted to the Kaggle competition:
+4. Kaggle Public Leaderboard Log-Loss Score: 0.84608
+5. While the training results are strong, the Kaggle score indicates room for improvement in generalization and probability calibration.
+
