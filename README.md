@@ -1,5 +1,6 @@
-# End-to-end Dog Breed Classification
-Using Transfer Learning and TensorFlow 2.0 to Classify Different Dog Breeds
+# End-to-end Dog Breed Classification using MobileNetV2
+Using Transfer Learning and TensorFlow 2.0 to Classify Different Dog Breeds.
+For our machine learning model, we're using MobileNetV2, a lightweight and efficient convolutional neural network architecture, as the base model. It's a pretrained deep learning model available via TensorFlow Hub.
 
 To do this, we'll be using data from the [Kaggle dog breed identification competition](https://www.kaggle.com/c/dog-breed-identification/overview). It consists of a collection of 10,000+ labelled images of 120 different dog breeds.
 
